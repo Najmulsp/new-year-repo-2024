@@ -219,7 +219,8 @@ body {
     height: 700px;
     
     margin: 100px;
-    border: 1px solid red;
+   
+    position: relative;
 }
 #bonus-mark2 .holiday .holiday-head .holiday-text1{
     color: #070211;
@@ -254,25 +255,27 @@ margin-bottom: 0;
 
 }
 #bonus-mark2 .holiday .holiday-foot  .img4{
-    position: relative;
+    position: absolute;
     width: 300px;
     height: 300px;
-    margin: -155px 0 60px 850px;
+    margin: 88px 0 60px 908px;
 }
 #bonus-mark2 .holiday .holiday-foot  .img3{
-    position: relative;
+    position:absolute;
     width: 100%;
     height: 100px;
-    margin: 0px 0 90px 0px;
+    margin: 32% 0 0px 1px;
 }
 #bonus-mark2 .holiday .holiday-foot  .img2{
-    position: relative;
-    width: 200px;
-    margin: 0px 0 0px 450px;
+    position: absolute;
+    width: 300px;
+    margin: 100px 50px 0px 740px;
+    
 }
 #bonus-mark2 .holiday .holiday-foot  .img1{
-    width: 200px;
-    margin: 0px 0 70px 0px;
+    position: absolute;
+    width: 500px;
+    margin: 100px 0 20px 270px;
 }
 
 /* portfolio section styling */
@@ -338,31 +341,39 @@ margin-bottom: 0;
 #newsletter .container .inp-btn {
   width: 500px;
   display: flex;
+  position: relative;
 }
-#newsletter .container .inp-btn button {
+#newsletter .container .inp-btn .sidebox{
   color: #fff;
   text-align: center;
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
-  width: 210px;
-  height: 72px;
+  width: 214px;
+  height: 74px;
   border-radius: 0px 50px 50px 0px;
   background: #f00;
+  position: absolute;
+  margin: 1.5px 0 -0px 88.5%;
 }
-#newsletter .container .inp-btn input {
+#newsletter .container .inp-btn .fillbox {
   width: 648px;
   height: 72px;
   border-radius: 50px;
   background: #fff;
+  position: absolute;
 }
+#newsletter .container .inp-btn .sidebox{
+
+}
+
 /* footer section styling */
 #foot {
-  width: 100%;
+  width: 1600px;
   height: 609px;
   background: #070211;
 
-  padding: 40px;
+  padding: 100px 100px;
   margin-right: 50px;
 }
 #foot .foot1 {
@@ -401,7 +412,9 @@ margin-bottom: 0;
 }
 #foot .foot1 .sub-main .sub-sub {
   display: flex;
+  justify-content: space-around;
   align-items: center;
+  margin-right: 100px;
 }
 #foot .foot1 .sub-main .sub-sub img {
   width: 24px;
@@ -413,4 +426,5 @@ margin-bottom: 0;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
+  margin-right: 100px;
 }
