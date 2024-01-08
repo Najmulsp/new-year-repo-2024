@@ -6,12 +6,17 @@ body {
 }
 /* banner styling */
 #banner-styling .banner {
-  opacity: 0.8;
+  
+  /* background-color: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+1x */
+
   background-image: url("images/Banner\ Image.png");
   width: 100%;
   height: 600px;
   border-radius: 16px;
   margin: 0 auto;
+  position: relative;
 }
 #banner-styling .banner .banner-text1 {
   color: #fff;
@@ -19,8 +24,11 @@ body {
   font-family: Merriweather;
   font-size: 32px;
   font-weight: 400;
-  padding: 100px;
+  /* padding: 100px; */
   align-items: center;
+  position: absolute;
+  margin: 200px 50% 300px 28%;
+  width: 500px;
 }
 #banner-styling .banner .banner-text2 {
   width: 600px;
@@ -29,7 +37,8 @@ body {
   font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
-  margin: 0 auto;
+  position: absolute;
+  margin:250px 50% 300px 25%;
 }
 /* 60% discount styling */
 #discount .offer {
@@ -160,14 +169,18 @@ body {
 #bonus-mark .bonus {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items:center;
   margin: 0 auto;
+  text-align: center;
+  position: relative;
+  
 }
 
 #bonus-mark .bonus .bonus1 {
   width: 33%;
   height: 100px;
   align-items: center;
+
 }
 #bonus-mark .bonus .bonus1 .bonus-text1 {
   color: #f00;
@@ -194,10 +207,12 @@ body {
 #bonus-mark .bonus .bonus2 {
 }
 #bonus-mark .bonus .bonus2 .bonus-img1 {
-  width: 43%;
+  width: 15%;
   outline: 10px solid #f00;
   outline-offset: 20px;
   border-radius: 50%;
+  margin: -24px 300px 100px -95px;
+  position: absolute;
 }
 #bonus-mark .bonus .bonus3 {
   text-align: left;
@@ -252,7 +267,7 @@ margin-bottom: 0;
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
-    margin-top: 0;
+    margin: 0 auto;
 }
 #bonus-mark2 .holiday .holiday-head .holiday-text1{
 
@@ -261,7 +276,7 @@ margin-bottom: 0;
     position: absolute;
     width: 300px;
     height: 300px;
-    margin: 88px 0 60px 908px;
+    margin: 99px 0 60px 946px;
 }
 #bonus-mark2 .holiday .holiday-foot  .img3{
     position:absolute;
@@ -278,7 +293,7 @@ margin-bottom: 0;
 #bonus-mark2 .holiday .holiday-foot  .img1{
     position: absolute;
     width: 500px;
-    margin: 100px 0 20px 270px;
+    margin: 100px 0 20px 230px;
 }
 
 /* portfolio section styling */
@@ -362,7 +377,7 @@ margin-bottom: 0;
   border-radius: 0px 50px 50px 0px;
   background: #f00;
   position: absolute;
-  margin: 1.5px 0 -0px 88.5%;
+  margin: 1.1px -4px -8px 87.5%;
 }
 #newsletter .container .inp-btn .fillbox {
   width: 648px;
@@ -370,6 +385,8 @@ margin-bottom: 0;
   border-radius: 50px;
   background: #fff;
   position: absolute;
+  box-sizing: border-box;
+  padding-left: 20px;
 }
 #newsletter .container .inp-btn .sidebox{
 
@@ -377,13 +394,13 @@ margin-bottom: 0;
 
 /* footer section styling */
 #foot {
-  width: 90%;
+  width: 1600px;
   height: 609px;
   background: #070211;
 
-  padding: 100px;
-  
-  margin: 0 auto;
+  padding: 70px auto;
+  position: absolute;
+  margin:0 100px 0  0;
 
 }
 #foot .foot1 {
