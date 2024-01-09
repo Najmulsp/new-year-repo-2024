@@ -1,15 +1,13 @@
 body {
  max-width: 1600px;
   margin: 0 auto;
-  width: 82%;
- 
 }
 
 /* banner styling */
 #banner-styling .banner {
 background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
 linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banner\ Image.png");
-  width: 100%;
+  width: 82.5%;
   height: 600px;
   border-radius: 16px;
   margin: 0 auto;
@@ -46,12 +44,10 @@ linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banne
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   margin: 0 auto;
 }
 #discount .discount-text1 {
   color: #f00;
-
   text-align: center;
   font-family: Inter;
   font-size: 88px;
@@ -78,12 +74,11 @@ linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banne
 #discount .discount-img {
   width: 400px;
   height: 400px;
-
   margin-bottom: 0 auto;
 }
 /* welcome party styling */
 #welcome .party {
-  width: 100%;
+  width: 82.5%;
   height: 500px;
   background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("images/Vectorrr.png");
   margin: 0 auto;
@@ -96,7 +91,6 @@ linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banne
 }
 #welcome .party .party2 {
   text-align: left;
-
   box-sizing: border-box;
   margin: auto 0 auto 20px;
 }
@@ -132,7 +126,7 @@ linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banne
 }
 /*  address section styling*/
 #address .address-text {
-  width: 100%;
+  width: 82.5%;
   height: 400px;
   background: linear-gradient(
     180deg,
@@ -140,7 +134,6 @@ linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banne
     rgba(255, 0, 0, 0) 100%
   );
   margin: 0 auto;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -158,7 +151,6 @@ linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banne
 }
 #address .address-text .address-btn {
   width: 153px;
-
   text-align: center;
   margin: 0 auto;
   border-radius: 8px;
@@ -167,6 +159,7 @@ linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banne
 }
 /* bonus mark section styling */
 #bonus-mark .bonus {
+  width: 82.5%;
   display: flex;
   justify-content: space-between;
   align-items:center;
@@ -235,7 +228,7 @@ linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banne
 }
 /* holiday section styling */
 #bonus-mark2 .holiday {
-    width: 100%;
+    width: 82.5%;
     height: 700px;
     margin: 0 auto;
     position: relative;
@@ -269,14 +262,12 @@ linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banne
     font-weight: 500;
     margin: 0 auto;
 }
-#bonus-mark2 .holiday .holiday-head .holiday-text1{
 
-}
 #bonus-mark2 .holiday .holiday-foot  .img4{
     position: absolute;
     width: 300px;
     height: 300px;
-    margin: 99px 0 60px 946px;
+    margin: 99px 0 60px 930px;
 }
 #bonus-mark2 .holiday .holiday-foot  .img3{
     position:absolute;
@@ -287,8 +278,7 @@ linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banne
 #bonus-mark2 .holiday .holiday-foot  .img2{
     position: absolute;
     width: 300px;
-    margin: 100px 50px 0px 740px;
-    
+    margin: 100px 50px 0px 740px;  
 }
 #bonus-mark2 .holiday .holiday-foot  .img1{
     position: absolute;
@@ -299,7 +289,7 @@ linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banne
 /* portfolio section styling */
 #portfolio .portfolio-parent {
   margin: 0 auto;
-  width: 100%;
+  width: 82.5%;
   margin-bottom: 100px;
 }
 #portfolio .portfolio-parent .portfolio-child1 .portfolio-text1 {
@@ -332,7 +322,7 @@ linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banne
 }
 /* subscribe section styling */
 #newsletter .container {
-  width: 100%;
+  width: 82.5%;
   height: 500px;
   background-color: rgba(255, 0, 0, 0.05);
   display: flex;
@@ -388,24 +378,21 @@ linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banne
   box-sizing: border-box;
   padding-left: 20px;
 }
-#newsletter .container .inp-btn .sidebox{
-
-}
-
 /* footer section styling */
 footer{
   background: #070211;
   justify-content: space-between;
   bottom: 0; 
   position: relative;
+  width: 100%;
+  margin: 0 auto;
  }
 
  #footer-container {
- width: 1320px;
   background: #070211;
   padding: 70px 100px;
    position: absolute;
-   margin:0 -500px 0  -137px; 
+   /* margin:0 -500px 0  -137px;  */
 } 
  #footer-container .foot1 {
   width:100%;
@@ -456,5 +443,4 @@ footer{
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
- 
 } 
