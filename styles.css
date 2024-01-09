@@ -413,7 +413,6 @@ footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
 }
 #footer-container .foot2 {
   width:100%;
@@ -441,16 +440,11 @@ footer{
 #foot .foot1 .sub-main {
   display: flex;
   flex-direction: column;
-  padding-right: -100px;
-  margin-right: 0 -200px -200 0;
-  position: absolute;
 }
 #footer-container .foot1 .sub-main .sub-sub {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  margin-right: 100px;
-  
+  align-items: center; 
 }
 #footer-container .foot1 .sub-main .sub-sub img {
   width: 24px;
